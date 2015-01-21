@@ -17,4 +17,4 @@ The difference with the two folders is that one will have a password parameter f
 2. If your SMTP does not work, try to register the emails with non-microsoft emails. Microsoft seems to block off email from your internet SMTP ports.
 
 3. If you have problem with linux creating files with setup.php. (can't open files) This might means your directory have no permission to write fles. Set permission on the directory will solve the problem: (For example)
-sudo chmod o+w /var/www/php
+sudo chmod o+w /var/www/directory_name/php
